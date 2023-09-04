@@ -1,9 +1,10 @@
-# Django Test
+<h1 align="center">Django Test</h1>
 
 
-Note - For tasks 3 through 40, commit your code changes with a message “Task <number>”. If the task involves no code changes, create a text file for the same and commit it with the above message.
+>Note - For tasks 3 through 40, commit your code changes with a message “Task <number>”. If the task involves no code changes, create a text file for the same and commit it with the above message.
 
-Tasks -   
+## Tasks
+
 1. Clone the git repository - git@github.com:vishalapte/python-jobs.git and create a branch where you’ll be committing the code changes/answers. 
 2. Create a virtual environment and activate it.
 3. Install all the requirements from requirements.txt file in the project and solve for any errors that you might face while doing so.
@@ -29,7 +30,7 @@ Tasks -
 14. In the  “cars/list/” route, only display the cars with launch date in future and Car names that start with ‘F’.
 15. Pass a suffix_string parameter to  “cars/list/” route and it must be appended to every car name that is listed.
 16. On the  “cars/list/” route make every alternate line blue. And centre the Heading.
-![alt contact 1E9](https://github.com/abiradar-enine/python-jobs/blob/dev_ab/common/logo/p1.png?raw=True "Question 16")
+    <br><img src="https://github.com/abiradar-enine/python-jobs/blob/dev_ab/common/logo/p1.png?raw=True" alt="Contact 1E9" height=200 widht=200>
 
 17. Create a basic form to accept fields for the Maker Model and update the database with the input data.
 18. Redirect the page to google.com after the form is submitted.
@@ -48,23 +49,23 @@ Tasks -
 27. Add new routes and display the content using the class based view and template that you have just created. Route: ‘cars/carlist/’ .
 28. Add a detailed view which shows all the fields of your model for the specific instance as provided with the API as follows - /cars/<name_of_the_car>. Here, the name of the car will tell you which object to generate the detailed view of.
 29. Display a default form for /cars/create/ route using the built in Django Class.
-30. Edit the form to be displayed in the following style, edit the labels and fields will be as per your Car Model
-![alt contact 1E9](https://github.com/abiradar-enine/python-jobs/blob/dev_ab/common/logo/p2.png?raw=True "Question 16")
-32. Implement Serializers for Car Model with the following fields:
+30. Edit the form to be displayed in the following style, edit the labels and fields as per your Car Model
+<br><img src="https://github.com/abiradar-enine/python-jobs/blob/dev_ab/common/logo/p2.png?raw=True" alt="Contact 1E9" height=200 widht=200>
+31. Implement Serializers for Car Model with the following fields:
     1. Maker
     2. Name
     3. Launch Date
     4. Mileage 
     and make necessary changes to the model if required for the above step.
-33. Implement Serializers in GET/POST API for the Car model.
-34. Implement PATCH API for the maker model (be able to update selective fields for the model instance)
-35. Serialise the Maker API to return the Makers and their cars such that both the Maker and Cars are serialised.
-36. Implement a django builtin request signal in your code and print/log information of an event using the signal handler.
-37. Create a custom model signal and use it on the Car model. If the form data is valid and the Maker is present in our database then increase the count of the cars of that maker by 1.
-38. Create a tagging mixin that allows you to put a tag on each model instance and use it for Maker and Car models.
+32. Implement Serializers in GET/POST API for the Car model.
+33. Implement PATCH API for the maker model (be able to update selective fields for the model instance)
+34. Serialise the Maker API to return the Makers and their cars such that both the Maker and Cars are serialised.
+35. Implement a django builtin request signal in your code and print/log information of an event using the signal handler.
+36. Create a custom model signal and use it on the Car model. If the form data is valid and the Maker is present in our database then increase the count of the cars of that maker by 1.
+37. Create a tagging mixin that allows you to put a tag on each model instance and use it for Maker and Car models.
 
-39. Perform the following steps in the project,record all the steps in fixture_operation.sh file and then commit. Under the test_data folder create a folder with your name and place the fixture_operation.sh file under it. (Same folder which was created for 13 Question. )
+38. Perform the following steps in the project,record all the steps in fixture_operation.sh file and then commit. Under the test_data folder create a folder with your name and place the fixture_operation.sh file under it. (Same folder which was created for 13 Question. )
     1. Take a dump of all models related to the new project created as fixtures. clear the tables for that project
     2.  Reload the fixtures for that project with the dump using django cli .
-40. On the django admin panel display the list of Makers along with the cars they made such that if cars’ count is less than 2 then display car Name and horsepower, if cars’ count is between 2 and 5 then display only car names and anything above that display all the cars in a dropdown.
-41. Run flake8 on the project directory and fix issues displayed.
+39. On the django admin panel display the list of Makers along with the cars they made such that if cars’ count is less than 2 then display car Name and horsepower, if cars’ count is between 2 and 5 then display only car names and anything above that display all the cars in a dropdown.
+40. Run flake8 on the project directory and fix issues displayed.
