@@ -1,7 +1,8 @@
 <h1 align="center">Django Test</h1>
 
+> The Following test is of 45 minutes and you can take help of the internet. In case of online test, it is mandatory to share your screen and record the test.
 
->Note - For tasks 3 through 40, commit your code changes with a message “Task <number>”. If the task involves no code changes, create a text file for the same and commit it with the above message.
+> Note - For tasks 3 through 40, commit your code changes with a message “Task <number>”. If the task involves no code changes, create a text file for the same and commit it with the above message.
 
 ## Tasks
 
