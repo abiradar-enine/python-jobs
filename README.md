@@ -31,7 +31,7 @@ Tasks -
     14. In the  “cars/list/” route, only display the cars with launch date in future and Car names that start with ‘F’.
     15. Pass a suffix_string parameter to  “cars/list/” route and it must be appended to every car name that is listed.
     16. On the  “cars/list/” route make every alternate line blue. And centre the Heading.
-          ![p1](https://github.com/abiradar-enine/python-jobs/assets/141114004/71f9ed42-3fed-4600-acef-c150399a1d3e)
+          ![Alt p1](https://github.com/abiradar-enine/python-jobs/assets/141114004/71f9ed42-3fed-4600-acef-c150399a1d3e)
 
     17. Create a basic form to accept fields for the Maker Model and update the database with the input data.
     18. Redirect the page to google.com after the form is submitted.
