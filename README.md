@@ -15,19 +15,19 @@
 7. Add a new app to the project, name : cars.
 8. Implement basic authentication in the app and make sure only authenticated users access the HomePage of the project.
 9. Create the following models 
-      Car model. 
-          1. maker : String field : Foreign Key
-          2. car_name : String field
-          3. hpp : Int field
-          4. launch_date : Date field
-      Maker Model.
-          1. name : String field
-          2. number_of_cars : Int field
+      <br>Car model. 
+          <br>1. maker : String field : Foreign Key
+          <br>2. car_name : String field
+          <br>3. hpp : Int field
+          <br>4. launch_date : Date field
+      <br>Maker Model.
+          <br>1. name : String field
+          <br>2. number_of_cars : Int field
 10. Add a simple function based view, to return “My First Function !@#”.
 11. Create a route to the new app(‘cars/test/’) which displays the welcome info :
       1. Welcome To 1E9 Task.
 12. Create a view to display the list of Cars on the “cars/list/” route of your app.
-13. Using Curl, get the result of the above api, paste the curl request and the output to a curl_output.txt file. Under the test_data folder create a folder with your name and place the curl_output.txt file under it.
+13. Using Curl, get the result of the above api, paste the curl request and the output to a curl_output.txt file. Under the test_data folder (Create if not present) place the curl_output.txt file under it.
 14. In the  “cars/list/” route, only display the cars with launch date in future and Car names that start with ‘F’.
 15. Pass a suffix_string parameter to  “cars/list/” route and it must be appended to every car name that is listed.
 16. On the  “cars/list/” route make every alternate line blue. And centre the Heading.
@@ -65,7 +65,7 @@
 36. Create a custom model signal and use it on the Car model. If the form data is valid and the Maker is present in our database then increase the count of the cars of that maker by 1.
 37. Create a tagging mixin that allows you to put a tag on each model instance and use it for Maker and Car models.
 
-38. Perform the following steps in the project,record all the steps in fixture_operation.sh file and then commit. Under the test_data folder create a folder with your name and place the fixture_operation.sh file under it. (Same folder which was created for 13 Question. )
+38. Perform the following steps in the project,record all the steps in fixture_operation.sh file and then commit.  Under the test_data folder (Create if not present) place the fixture_operation.sh file under it.
     1. Take a dump of all models related to the new project created as fixtures. clear the tables for that project
     2.  Reload the fixtures for that project with the dump using django cli .
 39. On the django admin panel display the list of Makers along with the cars they made such that if cars’ count is less than 2 then display car Name and horsepower, if cars’ count is between 2 and 5 then display only car names and anything above that display all the cars in a dropdown.
