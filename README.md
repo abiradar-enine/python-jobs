@@ -5,7 +5,6 @@
 > Note - For tasks 3 through 40, commit your code changes with a message **Task (number)**. If the task involves no code changes, create a text file for the same and commit it with the above message.
 
 ## Tasks
-
 1. Clone the git repository - git@github.com:vishalapte/python-jobs.git and create a branch where you’ll be committing the code changes/answers.
 2. Create a virtual environment and activate it.
 3. Install all the requirements from requirements.txt file in the project and solve for any errors that you might face while doing so.
@@ -44,18 +43,18 @@
 24. Add a Car and Maker Object to the respective models from the django admin panel.
 
 25. On the django admin panel implement the following.
-1. Add a list view for the Car model on the django admin panel.
-2. Filter the list on the date launched
-3. Give a search functionality on the name of the car.
+    <br>1. Add a list view for the Car model on the django admin panel.
+    <br>2. Filter the list on the date launched
+    <br>3. Give a search functionality on the name of the car.
 26. Create a simple Class Based View for your custom model to display the list of all cars.
 27. Create a simple Template to show the list of your model objects.
 28. Add new routes and display the content using the class based view and template that you have just created. Route: ‘cars/carlist/’ .
 29. Add a detailed view which shows all the fields of your model for the specific instance as provided with the API as follows - /cars/<name_of_the_car>. Here, the name of the car will tell you which object to generate the detailed view of.
 30. Implement Serializers for Car Model with the following fields:
-      <br>1. Maker
-      <br>2. Name
-      <br>3. Launch Date
-      <br>4. Mileage
+    <br>1. Maker
+    <br>2. Name
+    <br>3. Launch Date
+    <br>4. Mileage
 and make necessary changes to the model if required for the above step.
 31. Implement Serializers in GET/POST API for the Car model.
 32. Implement PATCH API for the maker model (be able to update selective fields for the model instance)
@@ -63,6 +62,7 @@ and make necessary changes to the model if required for the above step.
 34. Implement a django builtin request signal in your code and print/log information of an event using the signal handler.
 35. Create a custom model signal and use it on the Car model. If the form data is valid and the Maker is present in our database then increase the count of the cars of that maker by 1.
 36. Create a tagging mixin that allows you to put a tag on each model instance and use it for Maker and Car models.
+
 37. Perform the following steps in the project,record all the steps in fixture_operation.sh file and then commit.  Under the test_data folder (Create if not present) place the fixture_operation.sh file under it.
 1. Take a dump of all models related to the new project created as fixtures. clear the tables for that project
 2.  Reload the fixtures for that project with the dump using django cli .
