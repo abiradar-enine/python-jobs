@@ -67,3 +67,6 @@ and make necessary changes to the model if required for the above step.
     <br>2.  Reload the fixtures for that project with the dump using django cli .
 37. On the django admin panel display the list of Makers along with the cars they made such that if cars’ count is less than 2 then display car Name and horsepower, if cars’ count is between 2 and 5 then display only car names and anything above that display all the cars in a dropdown.
 38. Run flake8 on the project directory and fix issues displayed.
+
+> After you complete the test, schedule the interview using the following link:
+<br>https://calendly.com/eninehr
