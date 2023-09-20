@@ -6,14 +6,13 @@
 
 ## Tasks
 1. Clone the git repository - git@github.com:vishalapte/python-jobs.git and create a branch where you’ll be committing the code changes/answers.
-2. Create a virtual environment and activate it.
-3. Install all the requirements from requirements.txt file in the project and solve for any errors that you might face while doing so.
+2. Create a virtual environment in your project and activate it, henceforth use this virtual environment for subsequent tasks.
+3. Install all the requirements from requirements.txt file in the project and solve for any errors that you might face while doing so. Under the test_data folder (Create if not present) place the command.txt file, record the steps you used to install the requirements in this command.txt file.
 4. Identify and solve any problem that you might face while trying to run the server.
 5. Navigate to the admin panel and implement steps if required to access the admin panel. (No need to commit for this question. )
 6. Change the background colour of ‘2’ to brown. On the ‘Senior Developer Role’ page of the project.
 7. Add a new app to the project, name : cars.
-8. Implement basic authentication in the app and make sure only authenticated users access the HomePage of the project.
-9. Create the following models
+8. Create the following models
   	<br>Car model.
       	<br>1. maker : String field : Foreign Key
       	<br>2. car_name : String field
@@ -22,23 +21,24 @@
   	<br>Maker Model.
       	<br>1. name : String field
       	<br>2. number_of_cars : Int field
-10. Add a simple function based view in the new app, to return “My First Function !@#”.
-11. Create a route for the above step (‘cars/test/’) which displays the  info returned from the function.
-12. Create dummy data for the Car Model with about 100 unique rows.
-13. Create a view to display the list of Cars on the “cars/list/” route of your app.
-14. Using Curl, get the result of the above api, paste the curl request and the output to a curl_output.txt file. Under the test_data folder (Create if not present) place the curl_output.txt file under it.
-15. In the  “cars/list/” route, only display the cars with launch date in future and Car names that start with ‘F’.
-16. Pass a suffix_string parameter to  “cars/list/” route and it must be appended to every car name that is listed.
-17. On the  “cars/list/” route make every alternate line blue. And center the Heading.
+9. Add a simple function based view in the new app, to return “My First Function !@#”.
+10. Create a route for the above step (‘cars/test/’) which displays the  info returned from the function.
+11. Create dummy data for the Car Model with about 100 unique rows.
+12. Create a view to display the list of Cars on the “cars/list/” route of your app.
+13. Using Curl, get the result of the above api, paste the curl request and the output to a curl_output.txt file. Under the test_data folder (Create if not present) place the curl_output.txt file under it.
+14. In the  “cars/list/” route, only display the cars with launch date in future and Car names that start with ‘F’.
+15. Pass a suffix_string parameter to  “cars/list/” route and it must be appended to every car name that is listed.
+16. On the  “cars/list/” route make every alternate line blue. And center the Heading.
 <br><img src="https://github.com/abiradar-enine/python-jobs/blob/dev_ab/common/logo/p1.png?raw=True" alt="Contact 1E9" height=200 widht=200>
 
-18. Create a basic form to accept fields for the Maker Model and update the database with the input data.
-19. Edit the form to be displayed in the following style, edit the labels and fields as per your Maker Model
+17. Create a basic form to accept fields for the Maker Model and update the database with the input data.
+18. Edit the form to be displayed in the following style, edit the labels and fields as per your Maker Model
 <br><img src="https://github.com/abiradar-enine/python-jobs/blob/dev_ab/common/logo/p2.png?raw=True" alt="Contact 1E9" height=200 widht=200>
 
-20. Redirect the page to google.com after the form is submitted.
-21. Add an updated_at field to the maker model which has the latest time that the instance was created or updated.
-22. Using the django shell perform basic crud operations on any one of the models.
+19. Redirect the page to google.com after the form is submitted.
+20. Add an updated_at field to the maker model which has the latest time that the instance was created or updated.
+21. Using the django shell perform basic crud operations on any one of the models.
+22. Implement basic authentication in the app and make sure only authenticated users access the HomePage of the project.
 23. Add a Car and Maker Object to the respective models from the django admin panel.
 
 24. On the django admin panel implement the following.
