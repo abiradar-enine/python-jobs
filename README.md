@@ -5,7 +5,7 @@
 > Note - For tasks 3 through 40, commit your code changes with a message **Task (number)**. If the task involves no code changes, create a text file for the same and commit it with the above message.
 
 ## Tasks
-1. Clone the git repository - [git@github.com:vishalapte/python-jobs.git](https://github.com/vishalapte/python-jobs.git) and create a branch where you’ll be committing the code changes/answers.
+1. Clone the git repository - https://github.com/vishalapte/python-jobs.git and create a branch where you’ll be committing the code changes/answers.
 2. Create a virtual environment in your project and activate it, henceforth use this virtual environment for subsequent tasks.
 3. Install all the requirements from requirements.txt file in the project and solve for any errors that you might face while doing so. Under the test_data folder (Create if not present) place the command.txt file, record the steps you used to install the requirements in this command.txt file.
 4. Identify and solve any problem that you might face while trying to run the server.
