@@ -10,7 +10,7 @@
 3. Install all the requirements from requirements.txt file in the project and solve for any errors that you might face while doing so. Under the test_data folder (Create if not present) place the command.txt file, record the steps you used to install the requirements in this command.txt file.
 4. Identify and solve any problem that you might face while trying to run the server.
 5. Navigate to the admin panel and implement steps if required to access the admin panel. (No need to commit for this question. )
-6. Change the background colour of ‘2’ to brown. On the ‘Senior Developer Role’ page of the project.
+6. Change the background colour of number ‘2’ to brown. On the ‘Senior Developer Role’ page of the project.
 7. Add a new app to the project, name : cars.
 8. Create the following models
   	<br>Car model.
@@ -20,7 +20,6 @@
       	<br>4. launch_date : Date field
   	<br>Maker Model.
       	<br>1. name : String field
-      	<br>2. number_of_cars : Int field
 9. Add a simple function based view in the new app, to return “My First Function !@#”.
 10. Create a route for the above step (‘cars/test/’) which displays the  info returned from the function.
 11. Create dummy data for the Car Model with about 100 unique rows.
