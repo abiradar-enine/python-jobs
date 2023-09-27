@@ -36,7 +36,7 @@
 
 19. Redirect the page to google.com after the form is submitted.
 20. Add an updated_at field to the maker model which has the latest time that the instance was created or updated.
-21. Using the django shell perform basic crud operations on any one of the models.
+21. Using the django shell perform basic crud operations on any one of the models. Place the screenshots in the test_data folder (Create one if not present in the project)
 22. Implement basic authentication in the app and make sure only authenticated users access the HomePage of the project.
 23. Add a Car and Maker Object to the respective models from the django admin panel.
 
@@ -62,7 +62,7 @@ and make necessary changes to the model if required for the above step.
 35. Create a tagging mixin that allows you to put a tag on each model instance and use it for Maker and Car models.
 
 36. Perform the following steps in the project,record all the steps in fixture_operation.sh file and then commit.  Under the test_data folder (Create if not present) place the fixture_operation.sh file under it.
-    <br>1. Take a dump of all models related to the new project created as fixtures. clear the tables for that project
+    <br>1. Take a dump of all models related to the new project created, as fixtures. clear the tables for that project
     <br>2.  Reload the fixtures for that project with the dump using django cli .
 37. On the django admin panel display the list of Makers along with the cars they made such that if cars’ count is less than 2 then display car Name and horsepower, if cars’ count is between 2 and 5 then display only car names and anything above that display all the cars in a dropdown.
 38. Run flake8 on the project directory and fix issues displayed.
